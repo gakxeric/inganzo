@@ -1,0 +1,259 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: #ddd;
+}
+#logoarea{
+	width:100%;
+	height:100px;
+	background-color: #2c2c2c;
+
+}
+#wrapper {
+	margin:auto;
+	width:960px;
+	background-color: #ddd;
+	padding: 8px;
+}
+#wrapper a{
+	color: #205da9;
+}
+#vidspace{
+	width:300px;
+	height: 280px;
+	background-color: #2c2c2c;
+	margin-bottom: 20px;
+	
+}
+#vidspace video{
+ 	width:300px;
+	height: 280px;
+}
+#vidtitle{
+	width:300px;
+	height: 40px;
+	background-color: #205da9;
+
+	
+}
+#vidtitle p{
+	color: #ddd;
+	padding-top: 10px;
+ }
+#sidead{
+	width:200px;
+	height: 300px;
+	background-color: grey;
+	margin-bottom: 5px;
+}
+#sidead img{
+	width:200px;
+	height: 300px;
+}
+#main {
+	
+	width:840px;
+	height:auto;
+	margin-right:10px;
+	margin-top: 10px;
+	background-color: white;
+	padding: 20px;
+}
+#main img{
+	width:500px;
+	height:300px;
+}
+#recent{
+	width:880px;
+	height:auto;
+	margin-right:10px;
+	margin-top: 30px;
+	background-color: white;
+}
+#hlinks{
+	color: white;
+	display: block;
+	float: right;
+	margin-top:50px;
+	padding: 10px;
+}
+#hlinks a{
+	margin-left: 10px;
+	color: white;
+}
+#bullets{
+	float:left;
+	width:640px;
+	height:200px;
+	margin-right:10px;
+	margin-top: 8px;
+	background-color: white;
+	border-radius: 8px;
+}
+#rbullets{
+	width:840px;
+	height: 78px;
+	margin-top: 5px;
+	text-decoration: none;
+}
+#rbulletsimg{
+	width: 75px;
+	height:70px;
+	background-color:#2c2c2c;
+	float: left;
+	margin-left: 5px;
+	margin-right: 10px;
+}
+#rbulletsimg img{
+	width: 75px;
+	height:70px;
+	}
+#bulletsimg{
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-color:#2c2c2c; 
+	margin-right: 10px;
+	border-radius: 8px;
+}
+#bulletsimg img{
+	width: 200px;
+	height: 200px;
+	border-radius: 8px;
+}
+#sidebar {
+	float:right;
+	width:300px;
+	margin-top: 10px;
+	background-color: white;
+	height:auto;
+
+}
+#sidesec {
+	float:right;
+	width:300px;
+	background-color: #ddd;
+	height:auto;
+
+}
+#footer{
+	width: 100%;
+	height: 200px;
+	background-color: grey;
+	margin-top: 40px;
+
+}
+#footer p{
+
+	color: #ddd;
+}
+#subfooter{
+	background-color: #2c2c2c;
+	width: 100%;
+	height: 50px;
+	
+}
+#subfooter p{
+
+	color: #ddd;
+	padding-top: 11px;
+}
+#login {
+	background-color: white;
+	margin: 100px auto 0;
+	padding: 10px;
+	width: 300px;
+	border-radius: 5px;
+}
+
+#adminmenu {
+	padding-left: 0;
+}
+
+#adminmenu li {
+	float: left;
+	list-style: none;
+	margin-right: 20px;
+}
+
+.clear {
+	clear: both;
+}
+
+.error {
+	padding: 0.75em;
+	margin: 0.75em;
+	border: 1px solid #990000;
+	max-width: 400px;
+	color: #990000;
+	background-color: #FDF0EB;
+	-moz-border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+}
+
+p,li {
+	color: #555555;
+	font-size: 16px;
+	line-height: 1.5em;
+}
+
+a {
+	
+	text-decoration: none;
+}
+
+form input {
+	border: 1px solid #999999;
+	border-bottom-color: #cccccc;
+	border-right-color: #cccccc;
+	padding: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.0em;
+	margin: 2px;
+}
+
+table {width:98%; text-align:left; border:1px solid #DDDDDD; font-size:12px; color:#000;background:#fff; margin-bottom:10px;}
+table th {background-color:#E5E5E5; border:1px solid #BBBBBB; padding:3px 6px; font-weight:normal; color:#000;}
+table tr td {border:1px solid #DDDDDD; padding:5px 6px;}
+table tr.alt td {background-color:#E2E2E2;}
+table tr:hover {background-color:#F0F0F0; color:#000;}
+
+/* PAGINATION */
+
+.pagination {
+    clear: both;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.pagination a {
+    border: 1px solid #D5D5D5;
+    color: #666666;
+    font-size: 11px;
+    font-weight: bold;
+    height: 25px;
+    padding: 4px 8px;
+    text-decoration: none;
+  margin:2px;
+}
+.pagination a:hover, .pagination a:active {
+    background:#efefef;
+}
+.pagination span.current {
+    background-color: #687282;
+    border: 1px solid #D5D5D5;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: bold;
+    height: 25px;
+    padding: 4px 8px;
+    text-decoration: none;
+        margin:2px;
+}
+.pagination span.disabled {
+    border: 1px solid #EEEEEE;
+    color: #DDDDDD;
+    margin: 2px;
+    padding: 2px 5px;
+}
